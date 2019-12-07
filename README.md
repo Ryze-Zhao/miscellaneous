@@ -14,8 +14,9 @@
 
 #### 使用说明
 
-1.  spring-aop1
-    学习Spring AOP
+1.  spring-aop1模块
+    com.zhao.study.springaop1                   使用Aspect作AOP
+    com.zhao.study.springaop2                   使用自己的后置处理器模拟AOP
 
 
 
