@@ -6,6 +6,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 @Configuration
-@ComponentScan("com.zhao")
+@ComponentScan("com.zhao.study.springaop1")
 @EnableAspectJAutoProxy
 public class ZhaoConfig { }
