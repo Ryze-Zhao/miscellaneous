@@ -1,4 +1,4 @@
-package com.zhao.study.springaop1;
+package com.zhao.study.springaop1_1;
 
 
 import org.aspectj.lang.annotation.Aspect;
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 @Aspect
 public class ZhaoAspect {
     //切点(下面这个配置是拦截这个路径下所有类的所有方法)
-    @Pointcut(value = "execution(* com.zhao.study.springaop1.service..*.*(..))")
+    @Pointcut(value = "execution(* com.zhao.study.springaop1_1.service..*.*(..))")
     public void pointCut() {
     }
 

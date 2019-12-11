@@ -1,10 +1,9 @@
-package com.zhao.study.springaop2;
+package com.zhao.study.springaop1_2;
 
 
-import com.zhao.study.springaop2.service.CityService;
+import com.zhao.study.springaop1_2.service.CityService;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
-import org.springframework.stereotype.Component;
 
 import java.lang.reflect.Proxy;
 

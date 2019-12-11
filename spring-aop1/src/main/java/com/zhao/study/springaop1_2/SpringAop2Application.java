@@ -1,6 +1,6 @@
-package com.zhao.study.springaop2;
+package com.zhao.study.springaop1_2;
 
-import com.zhao.study.springaop2.service.CityService;
+import com.zhao.study.springaop1_2.service.CityService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class SpringAop2Application {

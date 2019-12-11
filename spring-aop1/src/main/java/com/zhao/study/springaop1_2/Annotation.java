@@ -1,4 +1,4 @@
-package com.zhao.study.springaop2;
+package com.zhao.study.springaop1_2;
 
 
 import org.springframework.context.annotation.Import;
