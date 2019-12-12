@@ -4,6 +4,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class CityServiceImpl implements CityService {
+    @Override
     public void query() {
         System.out.println("spring-init--------------------");
     }
