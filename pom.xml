@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>spring-aop1</module>
+        <module>spring-ioc1</module>
     </modules>
     <!--限制为JDK1.8-->
     <build>
