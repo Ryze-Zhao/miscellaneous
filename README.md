@@ -19,7 +19,7 @@
     com.zhao.study.springaop1_2                   使用自己的后置处理器模拟AOP
     com.zhao.study.springaop1_3                   Spring：AOP-切点各种切入方式演示
     com.zhao.study.springaop1_4                   Spring：AOP-this和target的小区别
-
+    com.zhao.study.springaop1_5                   Spring：AOP-通知（Advice）各种通知方式与顺序演示及JoinPoint操作参数等
 
 
 #### 参与贡献
