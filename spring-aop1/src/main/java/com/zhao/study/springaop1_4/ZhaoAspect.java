@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 @Aspect
 public class ZhaoAspect {
-    @Pointcut(value = "this(com.zhao.study.springaop1_4.service.CityServiceImpl)")
+    @Pointcut(value = "target(com.zhao.study.springaop1_4.service.CityServiceImpl)")
     public void pointCut() {}
     @Before("pointCut()")
     public void before() {

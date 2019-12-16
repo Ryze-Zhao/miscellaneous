@@ -7,6 +7,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 @Configuration
 @ComponentScan("com.zhao.study.springaop1_4")
-//proxyTargetClass = true更改为CGLIB代理方式
-@EnableAspectJAutoProxy(proxyTargetClass = true)
+////proxyTargetClass = true更改为CGLIB代理方式
+//@EnableAspectJAutoProxy(proxyTargetClass = true)
+@EnableAspectJAutoProxy
 public class ZhaoConfig {}
