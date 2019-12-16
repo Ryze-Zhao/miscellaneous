@@ -25,6 +25,7 @@ public class ZhaoAspect {
     public void around(ProceedingJoinPoint joinPoint) {
         System.out.println("ZhaoAspect-----------------around---------------------------------start");
         try {
+            System.out.println(joinPoint.getArgs()[0]+"---------"+joinPoint.getKind()+"---------"+joinPoint.getSignature()+"---------"+joinPoint.getSourceLocation()+"---------"+joinPoint.getStaticPart()+"---------"+joinPoint.getTarget()+"---------"+joinPoint.getThis()+"---------");
             joinPoint.proceed();
         } catch (Throwable throwable) {
             throwable.printStackTrace();
